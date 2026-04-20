@@ -139,3 +139,31 @@
   - type: Tag
     tags:
     - ClothMade
+
+# Professional Clown Hats
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatProfessionalClown
+  name: professional clowning hat
+  description: Professionals have standards.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Head/Hats/professionalclownhat.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Head/Hats/professionalclownhat.rsi
+  - type: Tag
+    tags:
+      - WhitelistChameleon
+      - HamsterWearable
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCourtJester
+  name: court jester hat
+  description: Where's that DAMN fourth telecrystal?
+  components:
+    - type: Sprite
+      sprite: _Funkystation/Clothing/Head/Hats/courtjesterhat.rsi
+    - type: Clothing
+      sprite: _Funkystation/Clothing/Head/Hats/courtjesterhat.rsi

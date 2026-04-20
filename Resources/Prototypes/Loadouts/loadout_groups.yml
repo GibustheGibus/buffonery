@@ -969,6 +969,8 @@
   - CowboyBlack
   - CowboyBrown
   - CowboyRed
+  - ClownHatProfessional
+  - JesterHatCourt
 
 - type: loadoutGroup # - Funkystation
   id: ClownMask
@@ -979,6 +981,8 @@
   - ClownMaskGamble
   - ClownMaskJuggle
   - ClownMaskSmug
+  - ClownRedNose
+  - JesterMaskCourt
 
 - type: loadoutGroup
   id: ClownJumpsuit
@@ -1002,6 +1006,8 @@
   - ClownSkirt
   - TacticoolSkirt
   - ContractKillerSkirt
+  - ClownProfessionalSuit
+  - JesterCourtSuit
 
 - type: loadoutGroup
   id: ClownBackpack
@@ -1069,6 +1075,8 @@
   - CargoWinterBoots
   - WorkBoots
   - EngineeringWinterBoots
+  - JesterCourtShoes
+  - ClownProfessionalShoes
 
 - type: loadoutGroup
   id: SurvivalClown

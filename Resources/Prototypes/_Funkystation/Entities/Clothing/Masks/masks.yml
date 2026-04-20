@@ -58,3 +58,45 @@
     sprite: Clothing/Mask/securitymime.rsi
   - type: Clothing
     sprite: Clothing/Mask/securitymime.rsi
+
+# Professional Clown
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskCourtMask
+  name: court mask
+  description: ... and it seems that, soon enough, it too will be my job to reign.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Mask/courtmask.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Mask/courtmask.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - ClownMask
+    - WhitelistChameleon
+    - HamsterWearable
+    - Mask
+  - type: HideLayerClothing
+    slots:
+    - Snout
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskClownNose
+  name: red nose
+  description: For a clown on the go.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Mask/rednose.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Mask/rednose.rsi
+  - type: BreathMask
+  - type: Tag
+    tags:
+    - ClownMask
+    - WhitelistChameleon
+    - HamsterWearable
+    - Mask

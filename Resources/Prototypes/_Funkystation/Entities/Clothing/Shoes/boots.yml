@@ -82,3 +82,41 @@
       collection: FootstepHighHeels
       params:
         variation: 0.09
+
+# Professional Clowns
+
+- type: entity
+  parent: ClothingShoesClownBase
+  id: ClothingShoesProfessionalClown
+  name: professional clown shoes
+  description: Professionals have standards.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Shoes/Misc/professionalclownshoes.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Shoes/Misc/professionalclownshoes.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepClown
+      params:
+        variation: 0.17
+  - type: Tag
+    tags:
+    - ClownShoes
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingShoesClown
+  id: ClothingShoesCourtJester
+  name: court jester shoes
+  description: Yes, the king is slowly dying, any moment he will go.
+  components:
+    - type: Sprite
+      sprite: _Funkystation/Clothing/Shoes/Misc/courtjestershoes.rsi
+    - type: Clothing
+      sprite: _Funkystation/Clothing/Shoes/Misc/courtjestershoes.rsi
+    - type: FootstepModifier
+      footstepSoundCollection:
+        collection: FootstepJester
+        params:
+          variation: 0.07

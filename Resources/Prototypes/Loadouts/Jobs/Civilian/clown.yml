@@ -20,6 +20,28 @@
   equipment:
     head: ClothingHeadHatJesterAlt
 
+- type: loadout
+  id: ClownHatProfessional
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 72000 # 20hr
+  equipment:
+    head: ClothingHeadHatProfessionalClown
+
+- type: loadout
+  id: JesterHatCourt
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 72000 # 20hr
+  equipment:
+    head: ClothingHeadHatCourtJester
+
 # Mask - Funkystation
 
 - type: loadout
@@ -51,6 +73,22 @@
   id: ClownMaskBanana
   equipment:
     mask: ClothingMaskClownBanana
+
+- type: loadout
+  id: ClownRedNose
+  equipment:
+    mask: ClothingMaskClownNose
+
+- type: loadout
+  id: JesterMaskCourt
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 72000 # 20hr
+  equipment:
+    mask: ClothingMaskCourtMask
 
 # Jumpsuit
 - type: loadout
@@ -95,6 +133,30 @@
     jumpsuit: ClothingUniformJumpsuitJesterAlt
   groupBy: "jumpsuit"
 
+- type: loadout
+  id: ClownProfessionalSuit
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 72000 # 20hr
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitProfessionalClown
+  groupBy: "jumpsuit"
+
+- type: loadout
+  id: JesterCourtSuit
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 72000 # 20hr
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCourtJester
+  groupBy: "jumpsuit"
+
 # Back
 - type: loadout
   id: ClownBackpack
@@ -121,6 +183,28 @@
   id: JesterShoes
   equipment:
     shoes: ClothingShoesJester
+
+- type: loadout
+  id: JesterCourtShoes
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 72000 # 20hr
+  equipment:
+    shoes: ClothingShoesCourtJester
+
+- type: loadout
+  id: ClownProfessionalShoes
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 72000 # 20hr
+  equipment:
+    shoes: ClothingShoesProfessionalClown
 
 # Outer clothing
 - type: loadout

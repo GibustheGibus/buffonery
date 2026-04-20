@@ -737,3 +737,35 @@
     sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/cadet.rsi
   - type: Clothing
     sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/cadet.rsi
+
+# Professional Clowns
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitProfessionalClown
+  name: professional clown outfit
+  description: Professionals have standards.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/professionalclown.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/professionalclown.rsi
+  - type: Tag
+    tags:
+    - ClownSuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCourtJester
+  name: court jester outfit
+  description: I am the Jester, my job's to entertain...
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/courtjester.rsi
+  - type: Clothing
+    sprite: _Funkystation/Clothing/Uniforms/Jumpsuit/courtjester.rsi
+  - type: Tag
+    tags:
+    - ClownSuit
+    - WhitelistChameleon
